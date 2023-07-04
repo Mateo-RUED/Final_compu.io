@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <meta content="Rueda Mateo" name="autor">
+    <meta content="Academia Economia" name="descripcion">
+    <meta content="Economia,clases,Universidad" name="palabras-principales">
+    <link rel="icon" href="imagenes/logo.png">
+    <script type="text/javascript" src="Funciones.js"></script>
+    <link rel="stylesheet" href="eventos.css" type="text/css">
+
+</head>
+<body>
+
+    <header>
+    <br>
+    <br>
+        <h1>Eventos</h1>
+    
+    
+        <div class="inicio">
+        <a href="index.html" target="_blankS">
+            <img id="logo" src="imagenes/logo.png" alt="logo"  width ="100" height="100"> 
+        </a>
+        
+        </div>
+    <br>
+    <br>
+    
+    </header>
+    
+    <p id="subtexto"> Inicio >> Clases de Economia </p>
+    
+    <div class="otros">
+    <pr> Otros:</pr>
+    <a href="nuestros_productos.html">Nuestros productos</a>
+
+    <pr> / </pr>
+        
+    <a href="clases.html">Clases</a>
+    </div>
+
+    <section>
+
+        <div class="mosaico"> 
+
+        <div >
+
+        <h2> Calendario de Eventos</h2>
+        
+        </div>
+
+        <div > 
+            
+            <h2>Eventos Viejos</h2>
+        
+        </div> 
+
+        <div >
+
+            <h2 > Eventos Nuevos:</h2>
+        </div>
+
+        </div>
+
+    <div class="mosaico">
+
+        <div id="fila_2" class="enlace" onclick="mostrarInformacion_2()"  style="background-image: url(imagenes/calendario\ evento.webp); background-size: cover;">
+
+        
+        <div  id="informacion_2" style="display: none;">
+                      <h2>¡Descubre nuestro calendario de eventos!</h2>
+
+En nuestra academia de economía, nos complace presentarte nuestro calendario repleto de emocionantes eventos y conferencias que no te puedes perder. Nuestro calendario está diseñado para mantenerte actualizado sobre las actividades más relevantes relacionadas con la economía y las finanzas.
+
+En cada día del mes, encontrarás una variedad de eventos programados, desde conferencias magistrales y paneles de discusión hasta talleres interactivos y presentaciones especiales. Nuestros expertos en economía, reconocidos a nivel nacional e internacional, compartirán sus conocimientos y experiencias para enriquecer tu comprensión de los temas económicos más importantes.
+
+Cada evento cuenta con una descripción detallada que te brinda una visión general de los temas que se tratarán, los ponentes destacados y los objetivos de aprendizaje. Además, podrás conocer la fecha, hora y lugar de cada evento para que puedas planificar tu asistencia de manera adecuada.
+
+En nuestro calendario, también encontrarás eventos pasados que incluyen testimonios inspiradores de personas que han participado en nuestras conferencias anteriores. Estos testimonios te brindarán una idea clara de la calidad de nuestros eventos y cómo han impactado positivamente en la vida profesional de los participantes.
+
+Estamos comprometidos con ofrecerte un calendario lleno de eventos relevantes y de calidad, brindándote la oportunidad de ampliar tus conocimientos, conectarte con profesionales destacados y fomentar el diálogo en torno a los temas económicos más apremiantes.
+
+¡No te pierdas nuestros emocionantes eventos! Consulta nuestro calendario regularmente para estar al tanto de las fechas, temas y oportunidades de aprendizaje que te esperan en nuestra academia de economía.
+
+
+<br>
+<br>
+<br>
+<br>
+
+            <div class="calendario">
+                <div class="mes">Junio 2023</div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>D</th>
+                      <th>L</th>
+                      <th>M</th>
+                      <th>M</th>
+                      <th>J</th>
+                      <th>V</th>
+                      <th>S</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="pasado">30</td>
+                      <td class="pasado">31</td>
+                      <td>1</td>
+                      <td>2</td>
+                      <td id="evento_anterior" class="enlace" onclick="mostrarInformacion()">3</td>
+                      <td>4</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>7</td>
+                      <td>8</td>
+                      <td id="evento_anterior" class="enlace" onclick="mostrarInformacion()">9</td>
+                      <td>10</td>
+                      <td>11</td>
+                      <td>12</td>
+                    </tr>
+                    <tr>
+                        <td id="evento_anterior" class="enlace" onclick="mostrarInformacion()">13</td>
+                        <td>14</td>
+                        <td id="hoy">15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                      </tr>
+                      <tr>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td id="evento_nuevo" class="enlace" onclick="mostrarInformacion_3()">23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                      </tr>
+                      <tr>
+                        <td id="evento_nuevo" class="enlace" onclick="mostrarInformacion_3()">27</td>
+                        <td>28</td>
+                        <td id="evento_nuevo" class="enlace" onclick="mostrarInformacion_3()">29</td>
+                        <td>30</td>
+                        <td class="pasado">1</td>
+                        <td class="pasado">2</td>
+                        <td class="pasado">3</td>
+                      </tr>
+                  </tbody>
+                </table>
+
+              </div>
+              
+
+        <a href="#" class="informacion-cerrar" onclick="mostrarInformacion_2()"></a>
+
+
+
+        </div>
+
+        </div>
+
+        <div id="fila_2" class="enlace" onclick="mostrarInformacion()"
+        style="background-image: url(imagenes/evento_viejo.webp); background-size: cover;">
+
+            
+        
+        
+        </div>
+
+        <div  id="informacion" style="display: none;">
+
+            <h3>Eventos anteriores</h3>
+            <p>En nuestra academia de economía, hemos tenido el placer de organizar diversos eventos y conferencias en el pasado. Estos eventos han sido una oportunidad para que nuestros estudiantes y profesionales del campo de la economía se reúnan, compartan conocimientos y establezcan conexiones valiosas.</p>
+            
+            <hr>
+            <hr>
+
+            <div class ="Noti">
+            <h4>Conferencia sobre Economía Sostenible</h4>
+            <p>Fecha: 3 de Junio de 2023</p>
+            <p>Descripción: En esta conferencia, destacados expertos en economía discutieron la importancia de implementar prácticas sostenibles en el ámbito económico. Se abordaron temas como la economía circular, energías renovables y responsabilidad empresarial.</p>
+            </div>
+            
+            <div class ="Noti">
+            <h4>Seminario de Finanzas Internacionales</h4>
+            <p>Fecha: 9 de Junio de 2023</p>
+            <p>Descripción: Durante este seminario, se exploraron los aspectos clave de las finanzas internacionales y cómo influyen en la economía global. Se examinaron temas como el mercado de divisas, inversiones extranjeras y acuerdos comerciales internacionales.</p>
+            </div>
+            
+            <div class ="Noti">
+            <h4>Taller de Análisis Económico</h4>
+            <p>Fecha: 13 de Junio de 2023</p>
+            <p>Descripción: En este taller práctico, los participantes tuvieron la oportunidad de profundizar en técnicas de análisis económico y aplicarlas a casos de estudio reales. Se abordaron temas como la evaluación de proyectos, modelos econométricos y pronósticos económicos.</p>
+            </div>
+
+        <a href="#" class="informacion-cerrar" onclick="mostrarInformacion()">Cerrar</a>
+
+        </div>
+
+       
+        <div id="fila_2" class="enlace" onclick="mostrarInformacion_3()" style="background-image: url(imagenes/evento_nuevo.webp); background-size: cover;">
+
+            
+    
+        <div  id="informacion_3" style="display: none;">
+
+            <h2>¡Te presentamos un adelanto de nuestras próximas conferencias!</h2>
+
+            <h4>1. Conferencia: "Perspectivas económicas globales"</h4>
+              <p>Fecha: 23 de Junio de 2023</p> 
+              <p>Descripción: Únete a nosotros en esta conferencia emocionante donde exploraremos las perspectivas económicas globales y los desafíos actuales que enfrenta el panorama económico mundial. Discutiremos temas como el crecimiento económico, la estabilidad financiera y las tendencias del mercado internacional.
+             Invitados especiales:
+               - Dr. John Anderson: Economista principal del Banco Mundial y experto en economía internacional.
+               - Dra. Laura García: Profesora de Economía en la Universidad de Harvard y autora de varios libros sobre economía global.
+                </p>
+            <h4>2. Conferencia: "Innovación tecnológica y su impacto en la economía"</h4>
+            <p> Fecha: 27 de Junio de 2023</p>
+            <p> Descripción: Descubre cómo la innovación tecnológica está transformando el panorama económico y generando nuevas oportunidades en diversos sectores. Exploraremos temas como inteligencia artificial, blockchain, economía digital y su influencia en los modelos de negocio tradicionales.
+                Invitados especiales:
+               - Dr. Mark Johnson: CEO de una reconocida empresa de tecnología y experto en innovación disruptiva.
+               - Dra. Emma López: Investigadora en economía digital y profesora en la Universidad de Stanford.
+            </p>
+               
+            <h4>3. Conferencia: "Políticas públicas para el crecimiento económico sostenible"</h4>
+
+            <p>Fecha: 29 de Junio de 2023</p>
+
+            <p>Descripción: Examina el papel de las políticas públicas en la promoción del crecimiento económico sostenible y la reducción de las desigualdades. Analizaremos temas como políticas fiscales, comercio internacional, inversión en infraestructuras y desarrollo sostenible.
+             Invitados especiales:
+               - Dr. Carlos Gómez: Economista jefe del Fondo Monetario Internacional y asesor de políticas económicas.
+               - Dra. Ana Torres: Investigadora en políticas públicas y profesora en la Universidad de Columbia.
+            </p>
+
+            Estas conferencias son solo una muestra de lo que está por venir. Mantente atento a nuestro calendario actualizado, ya que continuaremos agregando nuevos eventos y conferenciantes destacados que enriquecerán tu conocimiento y te brindarán una experiencia única en el campo de la economía.
+            
+            <h2>¡No te pierdas la oportunidad de aprender de los mejores expertos y estar al tanto de las últimas tendencias económicas! CONTACTANO PARA MAS CONSULTAS :</h2>
+
+            <div class="social_1">
+      
+                <div class="twitch" onclick="realizarAccion()">
+                  <a href="https://twitch.tv/economiaitalia" id="icono" target="_blank">
+                      <img src="imagenes/redes sociales/symbole-twitch-logo-icone-vert.png" alt="Icono"  width ="70" height="70">
+                  
+                  </a>
+               </div>
+      
+               <div class="youtube" onclick="realizarAccion()">
+                  <a href="https://www.youtube.com/@economiaydesarrollo" id="icono" target="_blank">
+                      <img src="imagenes/redes sociales/yotube.png" alt="Icono"  width ="70" height="70">
+                  
+                  </a>
+               </div>
+      
+               <div class="instagram" onclick="realizarAccion()">
+                  <a href="https://www.instagram.com/economiadelconocimiento/?hl=es-la" id="icono" target="_blank">
+                      <img src="imagenes/redes sociales/instagram.png" alt="Icono"  width ="70" height="70">
+                  
+                  </a>
+               </div>
+      
+               <div class="Twitter" onclick="realizarAccion()">
+                  <a href="https://twitter.com/Economia_Ar?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" id="icono" target="_blank">
+                      <img src="imagenes/redes sociales/Twitter.png" alt="Icono"  width ="70" height="70">
+                  
+                  
+                  </a>
+               </div>
+      
+              </div>
+
+        <a href="#" class="informacion-cerrar" onclick="mostrarInformacion_3()"></a>
+
+        </div>
+        </div>
+            
+    </div>
+          
+
+    </section>
+
+    <footer>
+
+        <div class="container">
+            <div class="column">
+            <h3>Términos y Condiciones:</h3>
+            <p>Al acceder y utilizar nuestro sitio web, aceptas cumplir con los términos y condiciones establecidos a continuación.
+                
+                El contenido del sitio web, incluyendo pero no limitado a textos, gráficos, logotipos, imágenes y materiales educativos, está protegido por derechos de autor y otros derechos de propiedad intelectual. No está permitida la reproducción, distribución o modificación del contenido sin nuestro consentimiento previo por escrito.
+                
+                Nos reservamos el derecho de modificar o actualizar los términos y condiciones en cualquier momento sin previo aviso. Te recomendamos revisar esta sección periódicamente para estar al tanto de cualquier cambio.
+                
+                El uso de nuestro sitio web y los servicios ofrecidos es responsabilidad del usuario. No nos hacemos responsables por cualquier daño o perjuicio derivado del uso inadecuado o no autorizado del sitio web.
+                
+                Cualquier disputa o reclamación relacionada con el uso de nuestro sitio web se regirá por las leyes vigentes en [país o jurisdicción correspondiente] y estará sujeta a la jurisdicción exclusiva de los tribunales competentes.
+                
+                Estas son solo algunas pautas generales y ficticias para un texto de políticas de privacidad y términos y condiciones. Recuerda que es importante consultar con un profesional legal para obtener
+                </p>
+            </div>
+    
+            <hr>
+    
+            <div class="column">
+    
+            <h3>Políticas de Privacidad:</h3>
+            <p>En de EconoMan, nos comprometemos a proteger la privacidad y seguridad de los usuarios de nuestro sitio web. A continuación, se detallan nuestras políticas de privacidad para informarte sobre cómo recopilamos, utilizamos y protegemos tu información personal.
+    
+                Recopilación de información:
+                
+                Cuando visitas nuestro sitio web, recopilamos información no personal, como tu dirección IP, tipo de navegador, páginas visitadas y la duración de la visita. Esta información se utiliza para mejorar la experiencia del usuario y analizar tendencias de tráfico, pero no está vinculada a tu identidad personal.
+                
+                Si decides registrarte en nuestros cursos o servicios, te solicitaremos información personal como tu nombre, dirección de correo electrónico y detalles de contacto. Esta información se utiliza para procesar tus solicitudes, brindarte los servicios contratados y mantener una comunicación efectiva contigo.
+                
+                Uso de la información:
+                
+                Utilizamos la información recopilada para brindarte los servicios solicitados, responder a tus consultas, administrar tu cuenta y enviarte actualizaciones relevantes sobre nuestros cursos y eventos.
+                
+                No compartiremos, venderemos ni alquilaremos tu información personal a terceros sin tu consentimiento expreso, excepto cuando sea necesario para cumplir con las obligaciones legales o en casos específicos de colaboración con proveedores de servicios de confianza que nos asisten en la gestión de nuestro sitio web y la prestación de servicios.
+                
+                Seguridad de la información:
+                
+                Tomamos medidas razonables para proteger tu información personal y mantenerla segura contra accesos no autorizados, uso indebido o divulgación. Utilizamos protocolos de seguridad estándar y controles de acceso para garantizar la confidencialidad y la integridad de los datos.
+                
+                Sin embargo, debes tener en cuenta que ninguna transmisión de datos a través de internet es completamente segura. Aunque nos esforzamos por proteger tu información personal, no podemos garantizar la seguridad absoluta de los datos transmitidos a través de nuestro sitio web.
+                
+                
+                </p>
+            </div>
+        </div>
+    
+        <br>
+        <br>
+    
+        <div class="final">
+        <p>Creado por Mateo Rueda con <span title="3">🤙</span> © Todos los derechos reservados. Los izquierdos también. © 2023 Economia Elvio. All rights reserved.| 深圳市恒宇博科技有限公司 粤ICP备17044299号-2</p>
+        </div>
+          
+    
+    </footer>
+    
+    
+</body>
+</html>

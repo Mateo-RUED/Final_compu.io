@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EconoMan</title>
+    <meta content="Mateo Rueda" name="autor">
+    <meta content="Academia" name="descripcion">
+    <meta content="Inicio, economia, academia" name="palabras-principales">
+    <link rel="stylesheet" href="nuestros_productos.css" type="text/css">
+    <link rel="icon" href="imagenes/logo.png">
+    <script type="text/javascript" src="Funciones.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <br>
+        <br>
+            <h1>Nuestro$ Producto$</h1>
+        
+        
+            <div class="inicio">
+            <a href="index.html" target="_blankS">
+               <img id="logo" src="imagenes/logo.png" alt="logo"  width ="100" height="100"> 
+            </a>
+            </div>
+        <br>
+        <br>
+        
+        </header>
+
+        <p id="subtexto"> Inicio >> Nuestros Productos </p>
+    
+        <div class="otros">
+        <pr> Otros:</pr>
+        <a href="clases.html">Clases</a>
+
+        <pr> / </pr>
+        
+        <a href="Eventos.html">Eventos</a>
+        </div>
+
+<section>
+<div class="container-items">
+
+    <div class="item">
+
+        <figure>
+            <img src="imagenes/Nuestros Productos/Macroeconomia Practico-Ejercicios.jpg"
+                 alt="producto">
+        </figure>
+
+        <div class="info-product">
+            <h2>Practico Macroeconomia</h2>
+            <p class="price">$10000</p>
+            <button id="pMacro" onclick="sumar_al_carrito(this.id)">Añadir al carrito</button>
+        </div>
+
+    </div>
+
+    <div class="item">
+
+        <figure>
+            <img src="imagenes/Nuestros Productos/Macroeconomia Teoria.jpg"
+                 alt="producto">
+        </figure>
+
+        <div class="info-product">
+            <h2>Teorico Macroeconomia</h2>
+            <p class="price">$5000</p>
+            <button id="tMacro" onclick="sumar_al_carrito(this.id)">Añadir al carrito</button>
+        </div>
+
+    </div>
+
+    <div class="item">
+
+        <figure>
+            <img src="imagenes/Nuestros Productos/Microeconomia-ejercicios y cuestionario.jpg" alt="producto">
+        </figure>
+
+        <div class="info-product">
+            <h2>Practico de Microeconomia</h2>
+            <p class="price">$10000</p>
+            <button id="pMicro" onclick="sumar_al_carrito(this.id)">Añadir al carrito</button>
+        </div>
+
+    </div>
+
+    <div class="item">
+
+        <figure>
+            <img src="imagenes/Nuestros Productos/Microeconomia Teoria.png" alt="producto">
+        </figure>
+
+        <div class="info-product">
+            <h2>Teorico Microeconomia</h2>
+            <p class="price">$2000</p>
+            <button id="tMicro" onclick="sumar_al_carrito(this.id)">Añadir al carrito</button>
+        </div>
+
+    </div>
+
+
+    <div class="item">
+
+        <figure>
+            <img src="imagenes/Nuestros Productos/Economia Internacional Practico.jpg" alt="producto">
+        </figure>
+
+        <div class="info-product">
+            <h2>Economia Internacional Practico</h2>
+            <p class="price">$6000</p>
+            <button id="pEI" onclick="sumar_al_carrito(this.id)">Añadir al carrito</button>
+        </div>
+
+    </div>
+
+
+    <div class="item">
+
+        <figure>
+            <img src="imagenes/Nuestros Productos/Economia Internacional Teorico.jpg" alt="producto">
+        </figure>
+
+        <div class="info-product">
+            <h2>Economia Internacional Teorico</h2>
+            <p class="price">$6000</p>
+            <button id="pEI" onclick="sumar_al_carrito(this.id)">Añadir al carrito</button>
+        </div>
+
+    </div>
+
+
+    <div class="carrito">
+        <h3>Carrito</h3>
+
+        <div id="total">
+            <p>Total:$
+                <span id="span" name="compra_total"></span>
+            </p>
+        </div>
+        <p>
+            <button id="limpiar" onclick="limpiar()">Limpiar carrito</button>
+        </p>
+
+        <p>
+            <button id="comprar" onclick="agradecimiento()">Confirmar compra</button>
+        </p>
+
+    </div>
+</div>
+</section>
+
+<footer>
+
+    <div class="container">
+        <div class="column">
+        <h3>Términos y Condiciones:</h3>
+        <p>Al acceder y utilizar nuestro sitio web, aceptas cumplir con los términos y condiciones establecidos a continuación.
+            
+            El contenido del sitio web, incluyendo pero no limitado a textos, gráficos, logotipos, imágenes y materiales educativos, está protegido por derechos de autor y otros derechos de propiedad intelectual. No está permitida la reproducción, distribución o modificación del contenido sin nuestro consentimiento previo por escrito.
+            
+            Nos reservamos el derecho de modificar o actualizar los términos y condiciones en cualquier momento sin previo aviso. Te recomendamos revisar esta sección periódicamente para estar al tanto de cualquier cambio.
+            
+            El uso de nuestro sitio web y los servicios ofrecidos es responsabilidad del usuario. No nos hacemos responsables por cualquier daño o perjuicio derivado del uso inadecuado o no autorizado del sitio web.
+            
+            Cualquier disputa o reclamación relacionada con el uso de nuestro sitio web se regirá por las leyes vigentes en [país o jurisdicción correspondiente] y estará sujeta a la jurisdicción exclusiva de los tribunales competentes.
+            
+            Estas son solo algunas pautas generales y ficticias para un texto de políticas de privacidad y términos y condiciones. Recuerda que es importante consultar con un profesional legal para obtener
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="column">
+
+        <h3>Políticas de Privacidad:</h3>
+        <p>En de EconoMan, nos comprometemos a proteger la privacidad y seguridad de los usuarios de nuestro sitio web. A continuación, se detallan nuestras políticas de privacidad para informarte sobre cómo recopilamos, utilizamos y protegemos tu información personal.
+
+            Recopilación de información:
+            
+            Cuando visitas nuestro sitio web, recopilamos información no personal, como tu dirección IP, tipo de navegador, páginas visitadas y la duración de la visita. Esta información se utiliza para mejorar la experiencia del usuario y analizar tendencias de tráfico, pero no está vinculada a tu identidad personal.
+            
+            Si decides registrarte en nuestros cursos o servicios, te solicitaremos información personal como tu nombre, dirección de correo electrónico y detalles de contacto. Esta información se utiliza para procesar tus solicitudes, brindarte los servicios contratados y mantener una comunicación efectiva contigo.
+            
+            Uso de la información:
+            
+            Utilizamos la información recopilada para brindarte los servicios solicitados, responder a tus consultas, administrar tu cuenta y enviarte actualizaciones relevantes sobre nuestros cursos y eventos.
+            
+            No compartiremos, venderemos ni alquilaremos tu información personal a terceros sin tu consentimiento expreso, excepto cuando sea necesario para cumplir con las obligaciones legales o en casos específicos de colaboración con proveedores de servicios de confianza que nos asisten en la gestión de nuestro sitio web y la prestación de servicios.
+            
+            Seguridad de la información:
+            
+            Tomamos medidas razonables para proteger tu información personal y mantenerla segura contra accesos no autorizados, uso indebido o divulgación. Utilizamos protocolos de seguridad estándar y controles de acceso para garantizar la confidencialidad y la integridad de los datos.
+            
+            Sin embargo, debes tener en cuenta que ninguna transmisión de datos a través de internet es completamente segura. Aunque nos esforzamos por proteger tu información personal, no podemos garantizar la seguridad absoluta de los datos transmitidos a través de nuestro sitio web.
+            
+            
+            </p>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="final">
+    <p>Creado por Mateo Rueda con <span title="3">🤙</span> © Todos los derechos reservados. Los izquierdos también. © 2023 Economia Elvio. All rights reserved.| 深圳市恒宇博科技有限公司 粤ICP备17044299号-2</p>
+    </div>
+      
+
+</footer>
+
+</body>
+</html>

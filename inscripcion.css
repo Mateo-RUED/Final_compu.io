@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("imagenes/fondoverdad.jpeg");
+    background-attachment:local;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.inicio a img {
+    transition: transform 0.3s ease; /* Transición de rotación */
+}
+
+.inicio a:hover img {
+transform: rotate(180deg); /* Rotación al pasar el mouse por encima */
+}
+
+#logo {
+    
+position:absolute;
+top: 10px;
+right: 0;
+margin-right: 80px;
+margin-top: 20px;
+}
+
+#logo {
+border-radius: 50%;
+width: 100px;
+height: 100px;
+}
+
+#subtexto{
+margin-left: 5px;
+color: bisque;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 15px;
+font-style: italic;
+text-align: left;
+font-weight: 900; 
+background-color: rgb(0,0,0,0.3);
+}
+
+.otros a{
+text-decoration: none;
+color:rgba(188, 255, 212, 0.916);
+transition: color  0.3s ease, text-decoration 0.3s ease;
+}
+
+    
+.otros a:hover {
+    color: rgb(11, 167, 37);
+    text-decoration: underline;
+}
+    
+
+.otros {
+color: bisque;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 15px;
+font-style: italic;
+text-align: left;
+font-weight: 900;
+margin-bottom: 50px;
+margin-left: 5px;
+background-color: rgb(0,0 ,0, 0.1);
+}
+
+
+h1 {
+    color: beige;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+    color: beige;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+div {
+    font-size: 20px;
+    background-color: rgba(60, 162, 163, 0.48);
+}
+
+button {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+    
+.required{
+
+color:red;
+margin-left: 10px;
+
+}
+
+.clases{
+    border: 2px solid #000;
+    padding: 20px;
+    width: 700px;
+    margin: 0 auto;
+    box-shadow: 8px 8px 8px rgba(38, 15, 71, 0.5);
+}
+
+form{
+
+align-items: center;
+text-align: center;
+}
+
+button:hover {
+    background-color: rgba(44, 44, 44, 0.73);
+}
